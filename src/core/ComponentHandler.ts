@@ -1,6 +1,6 @@
-import IComponent from "./components/IComponent"
+import IComponent from "../components/IComponent"
 
-export default class PageHandler {
+export default class ComponentHandler {
     render(component: IComponent[]): void {
         component.forEach(el => el.render())
     }

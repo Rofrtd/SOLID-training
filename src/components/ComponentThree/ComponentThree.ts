@@ -1,7 +1,7 @@
 import IComponent from '../IComponent'
-import { Size } from '../../../device/device'
+import { Size } from '../../../../device/device'
 
-export default class ComponentOne implements IComponent {
+export default class ComponentThree implements IComponent {
     private size: Size
 
     protected constructor(size: Size) {
@@ -9,7 +9,7 @@ export default class ComponentOne implements IComponent {
     }
 
     public render() {
-        console.log(`ComponentOne: ${this.size}`)
+        console.log(`ComponentThree: ${this.size}`)
     }
 }
 

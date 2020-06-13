@@ -1,6 +1,6 @@
 import Component1Large from "../components/ComponentOne/ComponentOne"
 import IComponent from "../components/IComponent"
-import { Size } from "../../device/Device"
+import { Size } from "../../../device/Device"
 import ComponentOneSmall from "../components/ComponentOne/ComponentOneSmall"
 import ComponentOneMedium from "../components/ComponentOne/ComponentOneMedium"
 import ComponentOneLarge from "../components/ComponentOne/ComponentOneLarge"

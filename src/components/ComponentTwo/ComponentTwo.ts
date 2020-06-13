@@ -1,5 +1,5 @@
 import IComponent from '../IComponent'
-import { Size } from '../../../device/device'
+import { Size } from '../../../../device/device'
 
 export default class ComponentTwo implements IComponent {
     private size: Size
